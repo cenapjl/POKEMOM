@@ -1,0 +1,264 @@
+2025-04-13T22:41:11.310-03:00  INFO 172 --- [Gabriel] [restartedMain] com.Pokemon.Gabriel.GabrielApplication   : Starting GabrielApplication using Java 17.0.12 with PID 172 (C:\Users\Victor\Desktop\Gabriel\target\classes started by Vitinho in C:\Users\Victor\Desktop\Gabriel)
+2025-04-13T22:41:11.313-03:00  INFO 172 --- [Gabriel] [restartedMain] com.Pokemon.Gabriel.GabrielApplication   : The following 1 profile is active: "test"
+2025-04-13T22:41:11.381-03:00  INFO 172 --- [Gabriel] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-13T22:41:11.382-03:00  INFO 172 --- [Gabriel] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-13T22:41:11.991-03:00  INFO 172 --- [Gabriel] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-13T22:41:12.033-03:00  INFO 172 --- [Gabriel] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2025-04-13T22:41:12.862-03:00  INFO 172 --- [Gabriel] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-13T22:41:12.876-03:00  INFO 172 --- [Gabriel] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-13T22:41:12.876-03:00  INFO 172 --- [Gabriel] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-13T22:41:12.912-03:00  INFO 172 --- [Gabriel] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-13T22:41:12.913-03:00  INFO 172 --- [Gabriel] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1531 ms
+2025-04-13T22:41:13.061-03:00  INFO 172 --- [Gabriel] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-13T22:41:13.282-03:00  INFO 172 --- [Gabriel] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bdaplcurso user=SA
+2025-04-13T22:41:13.284-03:00  INFO 172 --- [Gabriel] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-13T22:41:13.342-03:00  INFO 172 --- [Gabriel] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-13T22:41:13.418-03:00  INFO 172 --- [Gabriel] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-13T22:41:13.464-03:00  INFO 172 --- [Gabriel] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-13T22:41:13.552-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@68977b19
+2025-04-13T22:41:13.552-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@68977b19
+2025-04-13T22:41:13.552-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@68977b19
+2025-04-13T22:41:13.552-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@2bbd539e
+2025-04-13T22:41:13.553-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@2bbd539e
+2025-04-13T22:41:13.553-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.BasicTypeReference@5d5133e2
+2025-04-13T22:41:13.553-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@5d5133e2
+2025-04-13T22:41:13.553-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@519b5edc
+2025-04-13T22:41:13.553-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@519b5edc
+2025-04-13T22:41:13.553-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@287b845
+2025-04-13T22:41:13.553-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@287b845
+2025-04-13T22:41:13.553-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@287b845
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BasicTypeReference@43e72a28
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@43e72a28
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BasicTypeReference@43e72a28
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@2361d84e
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@2361d84e
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.BasicTypeReference@592d1060
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BasicTypeReference@20d56da7
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@20d56da7
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@64fadcfb
+2025-04-13T22:41:13.554-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@49f4db82
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@786b7ccc
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@786b7ccc
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@786b7ccc
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.BasicTypeReference@73d88e33
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.BasicTypeReference@73d88e33
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@73d88e33
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@417789b7
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@417789b7
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@417789b7
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@2e3062d0
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@2e3062d0
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@2e3062d0
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@d1ef6c6
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@d1ef6c6
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@d1ef6c6
+2025-04-13T22:41:13.555-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@3a805840
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@3a805840
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@47474496
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@47474496
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.BasicTypeReference@6acc884c
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.BasicTypeReference@6acc884c
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@6acc884c
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@101efb15
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.BasicTypeReference@28e4f30e
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@28e4f30e
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.BasicTypeReference@55fa6170
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.BasicTypeReference@5bfa0d6b
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.BasicTypeReference@5bfa0d6b
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.BasicTypeReference@5bfa0d6b
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@3c5b8352
+2025-04-13T22:41:13.556-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.BasicTypeReference@33286b54
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.BasicTypeReference@355f6da0
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.BasicTypeReference@3ec5af35
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@3ec5af35
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.BasicTypeReference@5ee4faac
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@5ee4faac
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@2e6648ef
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@609a02ee
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@7335b5cf
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@a7d109f
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@16c0000f
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@26fded4b
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.BasicTypeReference@78b8bf96
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@78b8bf96
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@1aa3b1f6
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@1aa3b1f6
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@cf50ad5
+2025-04-13T22:41:13.557-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@cf50ad5
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@45ab39b5
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@45ab39b5
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@78d27a99
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@78d27a99
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@7ff95874
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@5b7e56fc
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@4704aab7
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@4704aab7
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@2ce9167c
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@1966c16d
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@3006bd0b
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@5235e8ae
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@5235e8ae
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@368b5e62
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@19c99c77
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.BasicTypeReference@1ca294a0
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@1ca294a0
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.BasicTypeReference@61af6f02
+2025-04-13T22:41:13.558-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@61af6f02
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@dbb451b
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@dbb451b
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@dbb451b
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.BasicTypeReference@58c45aff
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@58c45aff
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@58c45aff
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@504bd2d3
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@4a0670a7
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration instant -> org.hibernate.type.BasicTypeReference@1dc26761
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@1dc26761
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid -> org.hibernate.type.BasicTypeReference@672bc584
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@672bc584
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@672bc584
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@69f85ef8
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@10829828
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.BasicTypeReference@1ef51c36
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@1ef51c36
+2025-04-13T22:41:13.559-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.BasicTypeReference@27cbfd89
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Currency -> org.hibernate.type.BasicTypeReference@27cbfd89
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@27cbfd89
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.BasicTypeReference@c6f6816
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@c6f6816
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.BasicTypeReference@8a8e26b
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@8a8e26b
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.BasicTypeReference@3e0a5be4
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@3e0a5be4
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@4655de19
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@4655de19
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.BasicTypeReference@318d311d
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@318d311d
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration vector -> org.hibernate.type.BasicTypeReference@7e7936fd
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float_vector -> org.hibernate.type.BasicTypeReference@124097ad
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double_vector -> org.hibernate.type.BasicTypeReference@7a8d36ea
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte_vector -> org.hibernate.type.BasicTypeReference@22d0f57f
+2025-04-13T22:41:13.560-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.BasicTypeReference@15a9f106
+2025-04-13T22:41:13.568-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.JavaObjectType@43ce24b1
+2025-04-13T22:41:13.568-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@43ce24b1
+2025-04-13T22:41:13.569-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration null -> org.hibernate.type.NullType@1c148836
+2025-04-13T22:41:13.570-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@72acd181
+2025-04-13T22:41:13.570-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@6e1e876f
+2025-04-13T22:41:13.570-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@1a958350
+2025-04-13T22:41:13.570-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@2278ed0c
+2025-04-13T22:41:13.570-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@36cc001b
+2025-04-13T22:41:13.570-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@2c73dc52
+2025-04-13T22:41:13.571-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@1a4a458f
+2025-04-13T22:41:13.571-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@7f3fdb47
+2025-04-13T22:41:13.797-03:00  INFO 172 --- [Gabriel] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-13T22:41:13.877-03:00  INFO 172 --- [Gabriel] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-13T22:41:13.886-03:00 DEBUG 172 --- [Gabriel] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+2025-04-13T22:41:13.887-03:00 DEBUG 172 --- [Gabriel] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+2025-04-13T22:41:13.888-03:00 DEBUG 172 --- [Gabriel] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+2025-04-13T22:41:13.891-03:00 DEBUG 172 --- [Gabriel] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-04-13T22:41:13.893-03:00 DEBUG 172 --- [Gabriel] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(TimestampUtcDescriptor) replaced previous registration(TimestampUtcDescriptor)
+2025-04-13T22:41:13.898-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+2025-04-13T22:41:13.898-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+2025-04-13T22:41:13.898-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+2025-04-13T22:41:13.903-03:00 DEBUG 172 --- [Gabriel] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@17457ef4] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@b684c4f]
+2025-04-13T22:41:14.422-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    create global temporary table HTE_pokemon(ataque integer, data_captura date, defesa integer, niveis_pokemon tinyint, pontos_de_vida integer, rn_ integer not null, tipo_pokemon tinyint, velocidade integer, id bigint, cpf_pokemon varchar(255), nome_pokemon varchar(255), primary key (rn_)) TRANSACTIONAL
+2025-04-13T22:41:14.502-03:00  INFO 172 --- [Gabriel] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-13T22:41:14.503-03:00 DEBUG 172 --- [Gabriel] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@17457ef4] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@3c370516]
+2025-04-13T22:41:14.514-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists pokemon cascade 
+2025-04-13T22:41:14.515-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_pokemon
+2025-04-13T22:41:14.518-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_pokemon start with 1 increment by 50
+2025-04-13T22:41:14.522-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    create table pokemon (
+        ataque integer not null,
+        data_captura date,
+        defesa integer not null,
+        niveis_pokemon tinyint check (niveis_pokemon between 0 and 3),
+        pontos_de_vida integer not null,
+        tipo_pokemon tinyint check (tipo_pokemon between 0 and 16),
+        velocidade integer not null,
+        id bigint not null,
+        cpf_pokemon varchar(255) not null unique,
+        nome_pokemon varchar(255) not null,
+        primary key (id)
+    )
+2025-04-13T22:41:14.528-03:00 TRACE 172 --- [Gabriel] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@3c370516] for TypeConfiguration
+2025-04-13T22:41:14.528-03:00  INFO 172 --- [Gabriel] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-13T22:41:14.921-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    select
+        next value for seq_pokemon
+2025-04-13T22:41:15.005-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pokemon
+        (ataque, cpf_pokemon, data_captura, defesa, niveis_pokemon, nome_pokemon, pontos_de_vida, tipo_pokemon, velocidade, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-04-13T22:41:15.014-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    select
+        next value for seq_pokemon
+2025-04-13T22:41:15.016-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pokemon
+        (ataque, cpf_pokemon, data_captura, defesa, niveis_pokemon, nome_pokemon, pontos_de_vida, tipo_pokemon, velocidade, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-04-13T22:41:15.018-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pokemon
+        (ataque, cpf_pokemon, data_captura, defesa, niveis_pokemon, nome_pokemon, pontos_de_vida, tipo_pokemon, velocidade, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-04-13T22:41:15.020-03:00 DEBUG 172 --- [Gabriel] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pokemon
+        (ataque, cpf_pokemon, data_captura, defesa, niveis_pokemon, nome_pokemon, pontos_de_vida, tipo_pokemon, velocidade, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-04-13T22:41:15.083-03:00  WARN 172 --- [Gabriel] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-13T22:41:15.418-03:00  INFO 172 --- [Gabriel] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdaplcurso'
+2025-04-13T22:41:15.477-03:00  INFO 172 --- [Gabriel] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-13T22:41:15.506-03:00  INFO 172 --- [Gabriel] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-13T22:41:15.514-03:00  INFO 172 --- [Gabriel] [restartedMain] com.Pokemon.Gabriel.GabrielApplication   : Started GabrielApplication in 4.636 seconds (process running for 5.562)
+2025-04-13T22:41:54.205-03:00  INFO 172 --- [Gabriel] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-13T22:41:54.206-03:00  INFO 172 --- [Gabriel] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-13T22:41:54.207-03:00  INFO 172 --- [Gabriel] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-13T22:42:16.053-03:00 DEBUG 172 --- [Gabriel] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.ataque,
+        p1_0.cpf_pokemon,
+        p1_0.data_captura,
+        p1_0.defesa,
+        p1_0.niveis_pokemon,
+        p1_0.nome_pokemon,
+        p1_0.pontos_de_vida,
+        p1_0.tipo_pokemon,
+        p1_0.velocidade 
+    from
+        pokemon p1_0
+2025-04-13T22:43:16.414-03:00  INFO 172 --- [Gabriel] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-13T22:43:16.517-03:00  INFO 172 --- [Gabriel] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-13T22:43:16.522-03:00  INFO 172 --- [Gabriel] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-13T22:43:16.523-03:00 DEBUG 172 --- [Gabriel] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop table if exists pokemon cascade 
+2025-04-13T22:43:16.524-03:00 DEBUG 172 --- [Gabriel] [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    drop sequence if exists seq_pokemon
+2025-04-13T22:43:16.525-03:00 TRACE 172 --- [Gabriel] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@3c370516] for TypeConfiguration
+2025-04-13T22:43:16.525-03:00 DEBUG 172 --- [Gabriel] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@6237cc9d] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@3c370516]
+2025-04-13T22:43:16.528-03:00  WARN 172 --- [Gabriel] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-13T22:43:16.528-03:00  INFO 172 --- [Gabriel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-13T22:43:16.529-03:00  INFO 172 --- [Gabriel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
